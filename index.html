@@ -13,7 +13,8 @@
     
 </head>
 <body>
-    <header class="container mx-auto">
+  <div class="bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]">
+    <header class="container mx-auto ">
         <div class="navbar">
             <div class="navbar-start lg:w-[50%] w-screen flex justify-between ">
                 <div class="flex flex-row items-center">
@@ -43,7 +44,7 @@
             
                 <ul
                   tabindex="0"
-                  class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box w-32 z-[1] mt-3   shadow">
+                  class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box w-32 z-[1] mt-3   shadow ">
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Home</a></li>
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Services</a></li>
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Portfolio</a></li>
@@ -82,17 +83,61 @@
             </div>
             
           </div>
-          <div class="lg:mt-24 mt-4 flex flex-col justify-center items-center space-y-4 p-10">
+          <div class="lg:mt-24 mt-4 flex flex-col justify-center items-center lg:space-y-6 space-y-4 p-3">
             <img class="flex justify-center items-center" src="assets/banner.png" alt="">
             <h1 class="lg:text-5xl text-4xl font-bold  text-center">A barn house of this design has a <br> striking appearance</h1>
             <p class="text-center text-[#494949] px-2 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            <button class="btn bg-[#ABEF5F80] border rounded-3xl "><span class="bg">View Details</span>
+              <div class="shadow-lg h-9 w-9 bg-[#ABEF5F] rounded-full flex items-center justify-center text-center ">
+              
+                <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+               </div>
+
+            </button>
 
           </div>
-          
-          
-        
+        </div>
     </header>
     <main>
+      <section class="bg-gray-100 lg:mt-12 mt-8 relative">
+        <div class="absolute top-4 left-28 p-3 border-[2px] border-dashed border-[#737373] hidden lg:flex ">
+          <img class="lg:visible " src="assets/Vector.png" alt="">
+        </div>
+        <div class="container mx-auto flex lg:flex-row flex-col justify-between pt-20  p-3">
+          <div class="space-y-5 ">
+            <div class="text-center lg:text-start ">
+              
+              <button class="btn bg-[#FFFFFF] text-[#494949] font-bold border rounded-3xl"><i class="fa-solid fa-arrow-right  text-[#494949] "></i> About Us</button>
+            </div>
+            <h1 class="lg:text-5xl text-4xl font-bold text-center lg:text-start">We design thoughtful,<br> liveable spaces</h1>
+            <p class="text-[#494949] text-center lg:text-start">We create homes that are both aesthetically pleasing and functional, ensuring every <br> design choice enhances comfort and practicality.</p>
+            <div class="bg-[#FFFFFF] flex lg:items-center gap-4 p-6 border-[#FFFFFF] rounded-xl">
+              <div>
+              <img src="assets/commercial.png" alt="">
+              </div>
+              <div>
+              <h1 class="text-lg font-bold ">Commercial</h1>
+              <p class="text-[#737373]">Our company specializes in designing and building commercial structures <br> that combine innovative design </p>
+            </div>
+            </div>
+            <div class="bg-[#FFFFFF] flex lg:items-center gap-4 p-6 border-[#FFFFFF] rounded-xl">
+              <div >
+              <img src="assets/residential.png" alt="">
+              </div>
+              <div>
+              <h1 class="text-lg font-bold ">Residential</h1>
+              <p class="text-[#737373]">We design and build exceptional residential spaces that blend innovation,<br> comfort, and style. </p>
+            </div>
+            </div>
+            
+
+          </div>
+          <div class="mt-3">
+            <img src="assets/Rectangle.png" alt="">
+
+          </div>
+        </div>
+      </section>
 
     </main>
     <footer>
