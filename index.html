@@ -14,14 +14,16 @@
 </head>
 <body>
     <header class="container mx-auto">
-        <div class="navbar ">
-            <div class="navbar-start  ">
-                <div>
+        <div class="navbar">
+            <div class="navbar-start lg:w-[50%] w-screen flex justify-between ">
+                <div class="flex flex-row items-center">
+                  <div class="shadow-lg h-9 w-9 bg-[#ABEF5F] rounded-full  items-center flex justify-center text-center">
              
-              <i class="fa-solid fa-arrow-right -rotate-45 p-2 border rounded-full bg-[#ABEF5F] text-white "></i>
-              <a class="btn btn-ghost text-2xl lg:text-3xl font-bold">Rinterio</a>
+              <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+            </div>
+              <a class="btn btn-ghost text-3xl lg:text-4xl font-bold">Rinterio</a>
               </div>
-              <div>
+              
               <div class="dropdown ">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg
@@ -37,10 +39,11 @@
                       d="M4 6h16M4 12h8m-8 6h16" />
                   </svg>
                 </div>
+                <div >
             
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box w-32 z-[1] mt-3   shadow">
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Home</a></li>
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Services</a></li>
                   <li class="hover:text-black duration-300 ease-in-out font-[500]"><a>Portfolio</a></li>
@@ -49,6 +52,7 @@
                 </ul>
               </div>
               </div>
+             
 
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -62,11 +66,19 @@
             </div>
            
             <div class="navbar-end space-x-4 hidden sm:flex">
+              <div class="shadow-lg h-9 w-9 bg-white rounded-full flex items-center justify-center text-center">
               
-               <button class="p-2 bg-[#FFFFFF]"><i class="fa-solid fa-magnifying-glass "></i></button>
-               <button> <i class="fa-solid fa-cart-shopping p-1"></i></button>
+               <i class="fa-solid fa-magnifying-glass text-[#737373] "></i>
+              </div>
+              <div class="shadow-lg h-9 w-9 bg-white rounded-full flex items-center justify-center text-center">
+                <i class="fa-solid fa-cart-shopping p-1 text-[#737373]"></i>
+              </div>
+             
            
-              <a class="btn bg-[#ABEF5F] "><span class=" font-bold">Book Consult</span><i class="fa-solid fa-arrow-right -rotate-45 p-2  bg-black border rounded-full text-white "></i> </a>
+              <button class="border rounded-3xl btn bg-[#ABEF5F] "><span class=" font-bold">Book Consult</span>
+                <div class="shadow-lg h-9 w-9 bg-[black]  rounded-full flex items-center justify-center text-center">
+                <i class="fa-solid fa-arrow-right -rotate-45 text-white "></i></div>
+               </button>
             </div>
             
           </div>
