@@ -19,8 +19,8 @@
       tailwind.config = {
         theme: {
           extend: {
-            colors: {
-              clifford: '#da373d',
+            backgroundImage: {
+              'contactbg': "url('./assets/bg.jpg')",
             }
           }
         }
@@ -344,6 +344,48 @@
 
 
         </div>
+      </section>
+      <section class="bg-[url('./assets/bg.jpg')] lg:pt-24" >
+        <div class="container mx-auto p-3">
+          <div class="text-center mb-4 pt-8">          
+            <button class="btn bg-[#ABEF5F33] text-[#494949] font-bold border rounded-3xl"><i class="fa-solid fa-arrow-right  text-[#494949] "></i>Let’s Connect</button>
+        </div>
+        <div class="space-y-5 text-center">
+          <h1 class="lg:text-5xl text-4xl font-bold ">
+            Let’s Discuss Next Project
+            </h1>
+          <p class="pb-5 text-[#494949]">Our professional team excels in creating innovative and functional building designs, blending aesthetics with practicality. We prioritize sustainability and client vision to deliver exceptional architectural solutions. </p>
+  
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div>           
+            <input class="mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="First Name*">
+          </div>
+          <div>           
+            <input class="mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Last Name*">
+          </div>
+          <div>           
+            <input class="mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Phone Number*">
+          </div>
+          <div>           
+            <input class="mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Email Number*">
+          </div>
+          <div class="lg:col-span-2">           
+           <textarea class=" lg:col-span-2 mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full " name="" id="" rows="10"  placeholder="Write your message here"></textarea>
+          </div>
+          
+        </div>
+        <div class="pt-5">
+          <button class="w-full btn bg-[#ABEF5F] text-[#494949] font-bold rounded-3xl"> Send Mail
+            <div class="shadow-lg h-9 w-9 bg-[black]  rounded-full flex items-center justify-center text-center"><i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+            </div>
+            
+           </button>
+        </div>
+        
+         
+        </div>
+
       </section>
 
     </main>
